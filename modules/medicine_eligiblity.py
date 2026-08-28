@@ -4,5 +4,4 @@ if 15 <= age < 18:
 if (age >= 18 or age >= 15 and weight >= 55):
     print("you are eligible to get the medicine "  +  "get well soon")
 else: 
-     print("Sorry you " \
-     " are not  elible to get the medcicine")
+     print("Sorry you are not  elible to get the medcicine")
