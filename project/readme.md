@@ -1,3 +1,3 @@
-# The World's Most Serious Game
+# World's Most Serious Game
 
 Harekrishna Mahato
