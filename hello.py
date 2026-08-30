@@ -1,6 +1,6 @@
 #print("hello guys ")
 
-#print("name Harekrishna")
+print("Harekrishna")
 
 
 #print("hello guys ")
@@ -28,6 +28,5 @@
 #clc = (frt-32)*5/9
 #print("temp in farenheit    "  +   str(clc))
   
-r= int(input("enter the radius "))
 
 
