@@ -6,7 +6,7 @@ if 1 <= month <= 12:
 else:
     print("Invalid month")
 
-# Exercise 2
+# Exercise2
 names = set()
 name = input("Enter a name (empty to quit): ")
 while name != "":

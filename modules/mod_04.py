@@ -19,7 +19,7 @@ elif cabin == "C":
 else:
     print("Invalid cabin class")
 
-# Exercise 3: ranges given in the assignment.
+# Exercise 3:ranges given in the assignment.
 gender = input("Enter biological gender (female/male): ").lower()
 hemoglobin = float(input("Enter hemoglobin in g/l: "))
 if gender == "female":

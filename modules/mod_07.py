@@ -12,7 +12,7 @@ while result != 6:
     print(result)
 
 
-# Exercise 2
+# Exercise2
 def roll_custom_dice(sides):
     return random.randint(1, sides)
 

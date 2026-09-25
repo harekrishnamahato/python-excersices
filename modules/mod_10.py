@@ -29,7 +29,7 @@ class Elevator:
             self.floor_down()
 
 
-# Exercises 2-3
+# Exercises2-3
 class Building:
     def __init__(self, bottom_floor, top_floor, elevator_count):
         self.bottom_floor = bottom_floor

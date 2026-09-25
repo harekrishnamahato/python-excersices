@@ -1,7 +1,7 @@
 import random
 
 
-# Exercises 1-3: the Car class is extended with accelerate and drive.
+# Exercises 1-3:the Car class is extended with accelerate and drive.
 class Car:
     def __init__(self, registration_number, maximum_speed):
         self.registration_number = registration_number

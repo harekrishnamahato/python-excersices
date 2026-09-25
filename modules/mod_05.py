@@ -57,7 +57,6 @@ if logged_in:
     print("Welcome")
 else:
     print("Access denied")
-
 # Exercise 6
 total_points = int(input("How many random points? "))
 if total_points > 0:

@@ -1,7 +1,7 @@
 from mod_09 import Car
 
 
-# Exercise 1
+# Exercise1
 class Publication:
     def __init__(self, name):
         self.name = name

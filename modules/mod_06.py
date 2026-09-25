@@ -18,7 +18,7 @@ print("Five greatest numbers:")
 for number in numbers[:5]:
     print(number)
 
-# Exercise 3
+# Exercise3
 number = int(input("Enter an integer: "))
 is_prime = number >= 2
 for divisor in range(2, number):
