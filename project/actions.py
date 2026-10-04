@@ -73,6 +73,5 @@ def move_player(player):
     else:
         print("You cannot move to that room from here.")
 
-
 def rest():
     print("You rest for a moment beside the path.")
