@@ -1,4 +1,4 @@
-def show_menu():
+def show_menu(file_commands=False):
     print()
     print("Main menu")
     print("- katso: look around")
@@ -7,6 +7,9 @@ def show_menu():
     print("- keraa: collect an item")
     print("- liiku: move to another room")
     print("- lepaa: rest")
+    if file_commands:
+        print("- tallenna: save game")
+        print("- lataa: load game")
     print("- lopeta: quit")
     print()
 
@@ -32,7 +35,6 @@ def show_map(rooms):
 
 
 def show_inventory(items):
-    # Like the inventory example in the Functions module.
     if len(items) == 0:
         print("Your bag is empty.")
     else:
@@ -72,6 +74,7 @@ def move_player(player):
         print("You moved to", player.location.name)
     else:
         print("You cannot move to that room from here.")
+
 
 def rest():
     print("You rest for a moment beside the path.")
