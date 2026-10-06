@@ -10,8 +10,8 @@ def generate_polynomial(seed = 0, order = 2):
     if seed == 0:
         seed = time.time_ns()
     rng = np.random.default_rng(seed)
-    roots = rng.random(order)*15 - 7.5  # Generate two random roots
-    p = np.round(np.poly(roots), 4)  # Get coefficients of the polynomial
+    roots = rng.random(order)*15 - 7.5
+    p = np.round(np.poly(roots), 4)
     return p
 
 def lab_1_problem_1(x, seed = 0):
