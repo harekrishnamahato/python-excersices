@@ -1,3 +1,5 @@
 .venv/
 
 project/save.json
+__pycache__/
+*.pyc
